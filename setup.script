@@ -1,0 +1,15 @@
+# Install Jupyter Notebook
+conda install -c conda-forge jupyterlab
+# Install Scanpy
+conda install seaborn scikit-learn statsmodels numba pytables
+conda install -c conda-forge python-igraph louvain
+pip install scanpy
+# Instal Leidenalg
+conda config --add channels conda-forge
+conda install leidenalg
+# Install loompy
+pip install -U loompy
+# Install anndata2ri
+# download anndata2ri source from from https://github.com/theislab/anndata2ri
+# cd to downloaded directory
+pip install .
